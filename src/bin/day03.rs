@@ -1,6 +1,6 @@
 use std::{fs, collections::HashSet};
 
-const INPUT_PATH: &str = "C:\\Users\\gabri\\OneDrive\\Documents\\Programming\\Personal\\AoC2022Rust\\input\\day03.txt";
+const INPUT_PATH: &str = "C:\\Users\\gabri\\OneDrive\\Documents\\Programming\\Personal\\advent-of-code-2022\\input\\day03.txt";
 
 fn read_input(path: &str) -> String {
     let content: String = fs::read_to_string(path).unwrap();

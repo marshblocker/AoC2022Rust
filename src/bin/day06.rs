@@ -1,6 +1,6 @@
 use std::{fs, collections::VecDeque};
 
-const INPUT_PATH: &str = "C:\\Users\\gabri\\OneDrive\\Documents\\Programming\\Personal\\AoC2022Rust\\input\\day06.txt";
+const INPUT_PATH: &str = "C:\\Users\\gabri\\OneDrive\\Documents\\Programming\\Personal\\advent-of-code-2022\\input\\day06.txt";
 
 fn read_input(path: &str) -> String {
     let content: String = fs::read_to_string(path).unwrap();

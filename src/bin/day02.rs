@@ -1,6 +1,6 @@
 use std::{fs};
 
-const INPUT_PATH: &str = "C:\\Users\\gabri\\OneDrive\\Documents\\Programming\\Personal\\AoC2022Rust\\input\\day02.txt";
+const INPUT_PATH: &str = "C:\\Users\\gabri\\OneDrive\\Documents\\Programming\\Personal\\advent-of-code-2022\\input\\day02.txt";
 
 #[derive(PartialEq)]
 enum Move {

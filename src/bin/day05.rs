@@ -1,7 +1,7 @@
 use std::{fs};
 use regex::Regex;
 
-const INPUT_PATH: &str = "C:\\Users\\gabri\\OneDrive\\Documents\\Programming\\Personal\\AoC2022Rust\\input\\day05.txt";
+const INPUT_PATH: &str = "C:\\Users\\gabri\\OneDrive\\Documents\\Programming\\Personal\\advent-of-code-2022\\input\\day05.txt";
 
 fn read_input(path: &str) -> String {
     let content: String = fs::read_to_string(path).unwrap();
